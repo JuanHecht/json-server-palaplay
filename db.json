@@ -1,33 +1,71 @@
 {
-  "projects": [
-    {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
+  "gameCards": [
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "title": "Practice for tourrnament",
+      "location": "Padel Club Lisboa",
+      "date": "2024-02-21",
+      "time": "16:30",
+      "level": "Intermediate",
+      "players": [
+        "tomas",
+        "Rui",
+        "",
+        ""
+      ]
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "Game 3",
+      "location": "Padel Central Porto",
+      "date": "2024-02-22",
+      "time": "18:00",
+      "level": "Beginner",
+      "players": [
+        "Player X",
+        "Player Y",
+        "Player Z",
+        "Player W"
+      ]
+    },
+    {
+      "title": "Cool game for begginers",
+      "location": "Padel Cascais",
+      "date": "2024-04-15",
+      "time": "02:30",
+      "level": "Beginner",
+      "players": [
+        "juan",
+        "leonardo",
+        "Maria"
+      ],
+      "id": 4
+    },
+    {
+      "title": "Advanced tournament",
+      "location": "Padel Central Porto",
+      "date": "2024-05-12",
+      "time": "10:00",
+      "level": "Advanced",
+      "players": [
+        "Leonardo Oliveira",
+        "Juan Hecht",
+        "bernardo",
+        "Rui"
+      ],
+      "id": 5
+    },
+    {
+      "title": "Game to try",
+      "location": "Padel Club Lisboa",
+      "date": "2023-12-12",
+      "time": "01:30",
+      "level": "Intermediate",
+      "players": [
+        "Leonardo Oliveira",
+        "Rui"
+      ],
+      "id": 6
     }
   ]
 }
